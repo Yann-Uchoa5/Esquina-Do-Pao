@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esquina do Pão</title>
+  <link rel="icon" type="image/x-icon" href="/img/esquina.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body class="body">
+  <header>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/Rectangle 15.png" alt="Esquina do Pão">
+        </a>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#inicio">Início</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#contato">Contatos</a>
+            <a class="nav-item nav-link" id="services-menu" href="#cardapio">Cardápio</a>
+            <a class="nav-item nav-link" id="team-menu" href="#sobre">Sobre nós</a>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="inicio" class="container-fluid">
+      <!-- slider -->
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner11.png" class="d-block w-100" alt="Projetos de padaria">
+
+            <!-- tirar classe d-none -->
+
+            <div class="carousel-caption d-md-block">
+              <h2></h5>
+              <p></p>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+
+            <div class="descricao__carrossel carousel-caption d-md-block">
+              <h2>Pães Especiais</h5>
+              <p>Conte conosco, temos uma variedade de doces, pães e salgados para nossos clientes. </p>
+              
+            </div>
+          </div>
+
+            <img src="img/fotocar1.jpg" class="d-block w-100" alt="foto 1">
+            <div class="carousel-caption d-md-block">
+              <h2></h5>
+              <p</p>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/paocar2.jpg" class="d-block w-100" alt="foto 2">
+            <div class="carousel-caption d-md-block">
+              <h2></h5>
+              <p></p>
+              
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Sobre a empresa -->
+      <div id="sobre" >
+        <div class="container">
+            <div class="row">
+              <div class="col-12"> 
+                <h3 class="main-title">Sobre a Esquina do Pão</h3>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="img/agencia.jpg" alt="img-pao-confeiteiro">
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">Uma Padaria que pensa no melhor para o nosso cliente</h3>
+                <p class="about-paragh">Em um amplo espaço muito bem localizado na região do Tibiquari, a Esquina do Pão é o ambiente ideal para uma agradável refeição, para reunir amigos e familiares e desfrutar de momentos especiais.</p>
+                <p class="about-paragh">Aberta diariamente das 5h00 às 18h30, a casa oferece atendimento diferenciado e cardápio diversificado. Além disso, você encontra setores de Pães, Doces, Frios, Adega e Mercearia para sua conveniência.</p>
+                <p class="about-paragh">A Confeitaria Especial mistura técnica, arte e criatividade na elaboração dos inúmeros produtos oferecidos. São doces cuidadosamente elaborados com receitas exclusivas. Conte com a Padaria Merci para festas, eventos, coffee break e reuniões. Encomende bolos, docinhos, salgados, sanduíches de metro, mini lanches, petit fours, tortas e muito mais.
+
+                </p>
+                
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Serviços da empresa -->
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h3 class="main-title">Nossos Produtos</h3>
+            </div>
+            <div class="col-md-4 service-box">
+              <img src="img/bolos.png" width="40" height="45">
+              <h4>Cupcakes</h4>
+              <p class="">Pequenas delícias que combinam sabor e estilo. Com uma base fofinha e um topo generosamente decorado</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <img src="img/rosquinha.png" width="40" height="45">
+              <h4>Rosquinhas</h4>
+              <p>Combinação perfeita de maciez e crocância. Feitas com uma massa leve e fofinha.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <img src="img/pao.png" width="40" height="45">
+              <h4>Pães</h4>
+              <p> Na nossa padaria, oferecemos uma variedade de pães fresquinhos de alta qualidade.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <img src="img/bolin.png" width="40" height="45">
+              <h4>Bolos</h4>
+              <p>Feitos com ingredientes frescos e selecionados, nossos bolos são macios, úmidos e irresistíveis.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <img src="img/paes.png" width="40" height="45">
+              <h4>Salgados</h4>
+              <p>Além de uma variedade de salgados assados, como empadas, enroladinhos e croissants.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <img src="img/brigadeiro.png" width="40" height="45">
+              <h4>Doces</h4>
+              <p>Oferecemos uma ampla seleção de doces que são um verdadeiro deleite para os amantes de açúcar. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Dados da padaria -->
+      <div id="call-area">
+        <div class="container">
+            <div class="row">
+              <p>Conheça os funcionários da Padaria</p>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+      <!-- Time -->
+      <div id="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Nosso time</h3>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/img1.jpeg" class="card-img-top" alt="Imagem de Perfil 1">
+                <div class="card-body">
+                  <h5 class="card-title">Funcionário (nome)</h5>
+                  <p class="card-text">Padeiro 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/img2.jpeg" class="card-img-top" alt="Imagem de Perfil 2">
+                <div class="card-body">
+                  <h5 class="card-title">Funcionário (nome)</h5>
+                  <p class="card-text">Padeiro 2</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/img3.jpeg" class="card-img-top" alt="Imagem de Perfil 3">
+                <div class="card-body">
+                  <h5 class="card-title">Funcionário (nome)</h5>
+                  <p class="card-text">Padeiro 3</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/img4.jpeg" class="card-img-top" alt="Imagem de Perfil 4">
+                <div class="card-body">
+                  <h5 class="card-title">Funcionário (nome)</h5>
+                  <p class="card-text">Padeiro 4</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Trabalhe conosco -->
+      <div id="apply-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 apply-box" id="company-img"></div>
+            <div class="col-md-6 apply-box" id="pattern-img">
+              <h4>exxx xxxxxxx</h4>
+              <p>exx xxxxxxxxx</p>
+              <p>exx xxxxxxxxx</p>
+              <p>ex xxxxxxxxx</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfólio -->
+      <div id="cardapio" class="portfolio-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Nosso cardápio</h3>
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+              <button class="main-btn filter-btn" id="dev-btn">Bolos</button>
+              <button class="main-btn filter-btn" id="dsg-btn">Rosquinhas</button>
+              <button class="main-btn filter-btn" id="seo-btn">Salgados</button>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/foto 6.jpg" class="img-fluid" alt="foto 1">
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/foto 2.jpg" class="img-fluid" alt="foto 2">
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="img/foto 3.jpg" class="img-fluid" alt="foto 3">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/foto 3.jpg" class="img-fluid" alt="foto 4">
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/foto 4.jpg" class="img-fluid" alt="foto 5">
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="img/foto 5.jpg" class="img-fluid" alt="foto 6">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Newsletter -->
+      <div id="news-area">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="main-title">Fique por dentro das novidades</h3>
+          </div>
+          
+          <form action="">
+            <input type="text" class="form-control" id="email-input" name="email" placeholder="Digite aqui">
+            <input type="submit" id="news-btn" value="Enviar Email" class="submit">
+          </form>
+        </div>
+      </div>
+      <!-- Call to Action -->
+      <div id="call-area">
+        <div class="container">
+            <div class="row">
+              <p>Deseja entrar em contato conosco?</p>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+  <!-- Rodapé -->
+  <footer>
+    <div class="contact-area" id="contato">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Nossas redes sociais</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-tile">Ligue para:</span> (88) 98115-2779</p>
+              <p><span class="contact-tile">Horários:</span> 5:40 - 18:00</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-tile">Envie um email:</span> contato@esquinapao.com.br</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p><span class="contact-tile">Venha tomar um café:
+                <br>
+              </span>Rua Basílio Vieira Carneiro, Nº02, Tibiquari</p>
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Ou nos deixe uma mensagem:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input type="text" class="form-control" placeholder="E-mail" name="email">
+                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                <input type="submit" class="main-btn">
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="https://www.horadecodar.com.br" target="_blank"> Yan</a> &copy; 2023</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts do projeto -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
